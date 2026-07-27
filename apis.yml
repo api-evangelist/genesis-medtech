@@ -1,8 +1,14 @@
 aid: genesis-medtech
 name: Genesis Medtech
-description: 'Genesis Medtech is a company surfaced as a portfolio company of hongshan and added to the
-  API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Genesis MedTech is a global medical device company founded in Singapore in 2019, building
+  and commercializing advanced clinical solutions across surgical, vascular intervention, and structural
+  heart categories. It operates a vertically integrated platform that sources global medical technologies,
+  develops them through in-house and partner R&D, manufactures at scale, and distributes across more than
+  30 countries. Its portfolio includes the J-Valve structural heart system, the iReach Omnia articulating
+  powered surgical stapler, and neurovascular and peripheral vascular intervention product lines. Genesis
+  MedTech is a portfolio company of Hongshan (formerly Sequoia Capital China). It publishes a corporate
+  and product marketing presence only; no public developer program, API, or technical documentation surface
+  was found during enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/genesis-medtech/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,29 @@ x-backed-by:
 - hongshan
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.genesismedtech.com/wp-content/uploads/2025/02/genesis-logo.webp
 tags:
 - Company
 - Healthcare
+- Medical Devices
+- Surgical
+- Structural Heart
+- Vascular Intervention
+- Medtech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/genesis-medtech-domain-security.yml
 - type: Website
-  url: https://genesismedtech.com
+  url: https://www.genesismedtech.com
+- type: About
+  url: https://www.genesismedtech.com/about-us/
+- type: Blog
+  url: https://www.genesismedtech.com/news
+- type: Support
+  url: https://www.genesismedtech.com/contact-us
+- type: PrivacyPolicy
+  url: https://www.genesismedtech.com/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
